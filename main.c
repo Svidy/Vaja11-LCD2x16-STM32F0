@@ -89,6 +89,11 @@ int main(void)
 		itoa(val, SVIT, 10);
 		TM_HD44780_Puts(5, 1, SVIT);
 
+		TM_HD44780_Clear();
+		TM_HD44780_BlinkOn;
+		for TM_HD44780_ScrollRight;
+
+		HAL_delay(500);
 
   /* USER CODE END 1 */
 
