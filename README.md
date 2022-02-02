@@ -13,6 +13,7 @@ V  zavihku Pinout  & Configuration pod  rubriku System  Core kliknite  gumb GPIO
 
 Kaj počne funkcija itoa? Funkcija itoa spremeni int v string.
 Zakaj jo moramo uporabiti?  Ker lahko sprejme DECIMALNE, HEX ali DECIMALNI..
-Kaj pomeni tretji argument v tej funkciji? ___________________________________________.
 
+Komentar: 
+Pri tej nalogi sva imela težave s lcd knjižnicami. Poskusila sva na druge načine, vendar nama na koncu ni uspelo. Največji problem je bila funkcija #include"stm32fxxx_hal.h".
 
